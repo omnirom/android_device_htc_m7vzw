@@ -24,6 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from our omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Inherit from m7vzw device
+$(call inherit-product, device/htc/m7vzw/device.mk)
+
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 
