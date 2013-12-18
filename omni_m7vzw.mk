@@ -33,9 +33,9 @@ $(call inherit-product, device/htc/m7vzw/device.mk)
 # Discard inherited values and use our own instead.
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=HTCOneVZW \
-    BUILD_ID=JDQ39 \
-    BUILD_FINGERPRINT="VERIZON/HTCOneVZW/m7wlv:4.2.2/JDQ39/221778.10:user/release-keys" \
-    PRIVATE_BUILD_DESC="1.10.605.10 CL221778 release-keys"
+    BUILD_ID=JSS15J \
+    BUILD_FINGERPRINT="VERIZON/HTCOneVZW/m7wlv:4.2.3/JSS15J/278010.1:user/release-keys" \
+    PRIVATE_BUILD_DESC="2.10.605.1 CL278010 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
 
