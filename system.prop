@@ -27,3 +27,9 @@ gsm.sim.operator.iso-country=us
 gsm.operator.alpha=Verizon
 gsm.operator.numeric=311480
 gsm.operator.iso-country=us
+
+# Goo Manager support
+# Revert this before officially forking
+ro.goo.developerid=PonsAsinorem
+ro.goo.rom=omni-m7vzw-4.4
+ro.goo.version=$(shell date +%s)
