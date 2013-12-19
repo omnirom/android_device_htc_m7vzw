@@ -19,6 +19,7 @@ ro.ril.wp.feature=1
 ro.use_data_netmgrd=true
 
 # Carrier definitions
+ro.carrier=Verizon
 ro.cdma.home.operator.numeric=311480
 ro.cdma.home.operator.alpha=Verizon
 gsm.sim.operator.alpha=Verizon
